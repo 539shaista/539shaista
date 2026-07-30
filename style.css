@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+}
+
+h2{
+    text-align: center;
+    color: darkblue;
+}
+
+form{
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+input[type="radio"]{
+    width: auto;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width: 48%;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: darkblue;
+}
+
+input[type="reset"]:hover{
+    background-color: gray;
+}

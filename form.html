@@ -1,0 +1,118 @@
+
+<html>
+<head>
+    <title>User Registration</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: lightblue;
+        }
+
+        form{
+            width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        h2{
+            text-align: center;
+            color: darkblue;
+        }
+
+        input, select{
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"]{
+            width: auto;
+        }
+
+        input[type="submit"],
+        input[type="reset"]{
+            width: 48%;
+            background: blue;
+            color: white;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover{
+            background: darkblue;
+        }
+
+        input[type="reset"]:hover{
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+
+<h2>User Registration Form</h2>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" required>
+
+<label>Email ID</label>
+<input type="email" required>
+
+<label>Mobile Number</label>
+<input type="tel" pattern="[0-9]{10}" placeholder="10-digit number" required>
+
+<label>College Name</label>
+<input type="text" required>
+
+<label>Branch</label>
+<select required>
+    <option value="">Select</option>
+    <option>CSE</option>
+    <option>IT</option>
+    <option>ECE</option>
+    <option>EEE</option>
+    <option>MECH</option>
+</select>
+
+<label>Year of Study</label>
+<select required>
+    <option value="">Select</option>
+    <option>I Year</option>
+    <option>II Year</option>
+    <option>III Year</option>
+    <option>IV Year</option>
+</select>
+
+<label>Preferred Session</label><br>
+<input type="radio" name="session" required> Morning
+<input type="radio" name="session"> Afternoon
+<br><br>
+
+<label>Skills</label><br>
+<input type="checkbox"> Linux
+<input type="checkbox"> Git
+<input type="checkbox"> Docker
+<input type="checkbox"> Kubernetes
+<br><br>
+
+<label>Upload Resume</label>
+<input type="file" accept=".pdf,.doc,.docx">
+
+<label>Create Password</label>
+<input type="password" minlength="6" required>
+
+<label>Confirm Password</label>
+<input type="password" minlength="6" required>
+
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
