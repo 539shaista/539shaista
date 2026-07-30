@@ -88,7 +88,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN)
 
-📧 Email: YOUR_EMAIL
+📧 Email: nshahistafalak_cse240539@mgit.ac.in
 
 ---
 
