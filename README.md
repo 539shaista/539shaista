@@ -15,7 +15,7 @@
 - 🌱 Currently learning **Django, Java, Python, Linux & Networking**
 - 💻 Interested in **Web Development** and **Ethical Hacking**
 - 🚀 Always eager to learn new technologies
-- ✍️ I enjoy writing and sharing knowledge
+
 - 🎯 Goal: Become a Cyber Security Professional
 
 ---
