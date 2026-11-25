@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Shaista</h1>
+<h1 align="center">Hi 👋, I am a CSE student </h1>
 
 <h3 align="center">🎓 Computer Science Student | 🔐 Cyber Security Enthusiast | 💻 Aspiring Full Stack Developer</h3>
 
